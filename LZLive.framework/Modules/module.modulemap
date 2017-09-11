@@ -1,0 +1,6 @@
+framework module LZLive {
+  umbrella header "LZLive.h"
+
+  export *
+  module * { export * }
+}
