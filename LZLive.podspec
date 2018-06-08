@@ -144,7 +144,7 @@ Pod::Spec.new do |s|
     s.dependency "MBProgressHUD", "~> 0.9.1"
     s.subspec "GIF" do |ss|
         ss.ios.deployment_target = "7.0"
-        ss.dependency "SDWebImage/Core", "~> 4.0.0"
+        ss.dependency "SDWebImage"
         ss.dependency "FLAnimatedImage", "~> 1.0.8"
     end
     s.dependency "SSZipArchive", "~> 1.7"
